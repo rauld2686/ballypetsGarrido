@@ -1,0 +1,11 @@
+button{
+    padding: 10px 10px;
+    background-color: rgb(111, 111, 233);
+    transition:background-color .5s;
+    border-style:groove;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(80, 182, 76);
+}

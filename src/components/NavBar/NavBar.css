@@ -10,10 +10,14 @@ li, a{
     color: white;
 }
 nav{
+    position: absolute;
+    top: 0%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items:center;
+    width: 100%;
     padding: 30px 10%;
+    background-color:cornflowerblue;
 }
 .links_navbar{
     list-style: none;
