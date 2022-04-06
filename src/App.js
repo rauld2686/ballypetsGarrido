@@ -8,14 +8,13 @@ import ItemCount from './components/ItemCount/ItemCount';
 
 function App() {
   const handdleOnAdd = ( num ) =>{
-    console.log('Se agregaron ${num}  productos al carrito')
+    console.log(`Se agregaron ${num}  productos al carrito`)
   }
   return (
     <div className="App">
       <header className="App-header">
         <NavBar />
-        <ItemListContainer greeting={'Bienvenidos'}/>
-        <ItemCount initial={1} stock={5} onAdd={handdleOnAdd}/>
+        <ItemListContainer />
       </header>
     </div>
   );
