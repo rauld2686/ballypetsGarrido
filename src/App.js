@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import CartWidget from './components/CartWidget/CartWidget';
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import ItemCount from './components/ItemCount/ItemCount';
+import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <header className="App-header">
         <NavBar />
         <ItemListContainer />
+        <ItemDetailContainer />
       </header>
     </div>
   );
