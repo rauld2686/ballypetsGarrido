@@ -9,7 +9,7 @@ const ItemDetail = ({tittle, pictureUrl, price}) => {
                 </picture>
                 <h2>{tittle}</h2>
                 <h3>{price}</h3>
-                <p>Bolsas para recoger desechos de tus mascotas, son biodegradables.</p>
+                <p></p>
             </div>
         </section>
     )
